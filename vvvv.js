@@ -48,6 +48,9 @@ function initVVVV(path_to_vvvv, mode) {
   
   console.log('done ...');
   
+
+}
+
   VVVV.NodeLibrary = {};
 
   var p = new VVVV.Core.Patch('');
@@ -57,7 +60,6 @@ function initVVVV(path_to_vvvv, mode) {
     VVVV.NodeLibrary[x.nodename] = n;
   });
   
-}
 
 
 
